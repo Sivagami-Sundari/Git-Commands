@@ -1,0 +1,49 @@
+Git
+
+// Check branch
+git branch
+
+// See all branches
+git branch —all
+
+// Update newly created branch
+git fetch
+
+// Create new branch
+git branch -b branchName
+
+// Push branch
+git push origin branchName
+
+// Add file at path
+git add filePath
+
+// Add all the modified files
+git add .
+
+// Commit added files
+git commit  -m “commit message”
+
+// Pull a branch
+git pull origin branchName
+
+// Merge a branch
+git merge origin branchName
+
+// Checkout new branch
+git checkout branchName
+
+// Create .pem file from .p12
+openssl pkcs12 -in Wincline.p12 -out Wincline_DevPush.pem -nodes -clcerts
+
+// Create new tag
+git tag tagname
+
+// Push all new tags
+git push origin --tags
+
+// Delete branch locally
+git branch -d branchName
+
+// Delete branch remotely
+git push origin —delete branchName
