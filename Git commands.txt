@@ -18,6 +18,9 @@ git push origin branchName
 // Add file at path
 git add filePath
 
+// Shows all modified files
+git status
+
 // Add all the modified files
 git add .
 
@@ -34,7 +37,7 @@ git merge origin branchName
 git checkout branchName
 
 // Create .pem file from .p12
-openssl pkcs12 -in Wincline.p12 -out Wincline_DevPush.pem -nodes -clcerts
+openssl pkcs12 -in Project.p12 -out Project.pem -nodes -clcerts
 
 // Create new tag
 git tag tagname
