@@ -50,3 +50,9 @@ git branch -d branchName
 
 // Delete branch remotely
 git push origin —delete branchName
+
+// Stash not used code
+git stash
+
+// Retrieve stash code 
+git stash apply
